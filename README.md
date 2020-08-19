@@ -103,6 +103,7 @@ void main(){
 			exit(0);
 		default:
 			printf("Invalid choice...Enter your choice again");
+			getch();
 			goto L;
 	}
 }
